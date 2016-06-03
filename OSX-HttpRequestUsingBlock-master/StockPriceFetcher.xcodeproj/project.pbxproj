@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D0D4F3EA15F4F7CA00EB7536 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0D4F3E915F4F7CA00EB7536 /* UIKit.framework */; };
+		D0D4F3EC15F4F7CA00EB7536 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0D4F3EB15F4F7CA00EB7536 /* Foundation.framework */; };
+		D0D4F3EE15F4F7CA00EB7536 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0D4F3ED15F4F7CA00EB7536 /* CoreGraphics.framework */; };
+		D0D4F3F415F4F7CA00EB7536 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D0D4F3F215F4F7CA00EB7536 /* InfoPlist.strings */; };
+		D0D4F3F615F4F7CA00EB7536 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D4F3F515F4F7CA00EB7536 /* main.m */; };
+		D0D4F3FA15F4F7CA00EB7536 /* SPFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D4F3F915F4F7CA00EB7536 /* SPFAppDelegate.m */; };
+		D0D4F3FD15F4F7CA00EB7536 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0D4F3FB15F4F7CA00EB7536 /* MainStoryboard.storyboard */; };
+		D0D4F40015F4F7CA00EB7536 /* SPFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D4F3FF15F4F7CA00EB7536 /* SPFViewController.m */; };
+		D0D4F40815F4F81A00EB7536 /* SPFPriceFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D4F40715F4F81A00EB7536 /* SPFPriceFetcher.m */; };
+		D0D4F40B15F4F8DE00EB7536 /* JCDHTTPConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D4F40A15F4F8DE00EB7536 /* JCDHTTPConnection.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D0D4F3E515F4F7CA00EB7536 /* StockPriceFetcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StockPriceFetcher.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0D4F3E915F4F7CA00EB7536 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D0D4F3EB15F4F7CA00EB7536 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D0D4F3ED15F4F7CA00EB7536 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D0D4F3F115F4F7CA00EB7536 /* StockPriceFetcher-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StockPriceFetcher-Info.plist"; sourceTree = "<group>"; };
+		D0D4F3F315F4F7CA00EB7536 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D0D4F3F515F4F7CA00EB7536 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D0D4F3F715F4F7CA00EB7536 /* StockPriceFetcher-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StockPriceFetcher-Prefix.pch"; sourceTree = "<group>"; };
+		D0D4F3F815F4F7CA00EB7536 /* SPFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPFAppDelegate.h; sourceTree = "<group>"; };
+		D0D4F3F915F4F7CA00EB7536 /* SPFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPFAppDelegate.m; sourceTree = "<group>"; };
+		D0D4F3FC15F4F7CA00EB7536 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		D0D4F3FE15F4F7CA00EB7536 /* SPFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPFViewController.h; sourceTree = "<group>"; };
+		D0D4F3FF15F4F7CA00EB7536 /* SPFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPFViewController.m; sourceTree = "<group>"; };
+		D0D4F40715F4F81A00EB7536 /* SPFPriceFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPFPriceFetcher.m; sourceTree = "<group>"; };
+		D0D4F40915F4F8DE00EB7536 /* JCDHTTPConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCDHTTPConnection.h; sourceTree = "<group>"; };
+		D0D4F40A15F4F8DE00EB7536 /* JCDHTTPConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCDHTTPConnection.m; sourceTree = "<group>"; };
+		D0D4F41415F502AC00EB7536 /* SPFPriceFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPFPriceFetcher.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0D4F3E215F4F7CA00EB7536 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0D4F3EA15F4F7CA00EB7536 /* UIKit.framework in Frameworks */,
+				D0D4F3EC15F4F7CA00EB7536 /* Foundation.framework in Frameworks */,
+				D0D4F3EE15F4F7CA00EB7536 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0D4F3DA15F4F7CA00EB7536 = {
+			isa = PBXGroup;
+			children = (
+				D0D4F3EF15F4F7CA00EB7536 /* StockPriceFetcher */,
+				D0D4F3E815F4F7CA00EB7536 /* Frameworks */,
+				D0D4F3E615F4F7CA00EB7536 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D0D4F3E615F4F7CA00EB7536 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0D4F3E515F4F7CA00EB7536 /* StockPriceFetcher.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0D4F3E815F4F7CA00EB7536 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0D4F3E915F4F7CA00EB7536 /* UIKit.framework */,
+				D0D4F3EB15F4F7CA00EB7536 /* Foundation.framework */,
+				D0D4F3ED15F4F7CA00EB7536 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D0D4F3EF15F4F7CA00EB7536 /* StockPriceFetcher */ = {
+			isa = PBXGroup;
+			children = (
+				D0D4F40915F4F8DE00EB7536 /* JCDHTTPConnection.h */,
+				D0D4F40A15F4F8DE00EB7536 /* JCDHTTPConnection.m */,
+				D0D4F3F815F4F7CA00EB7536 /* SPFAppDelegate.h */,
+				D0D4F3F915F4F7CA00EB7536 /* SPFAppDelegate.m */,
+				D0D4F3FB15F4F7CA00EB7536 /* MainStoryboard.storyboard */,
+				D0D4F3FE15F4F7CA00EB7536 /* SPFViewController.h */,
+				D0D4F3FF15F4F7CA00EB7536 /* SPFViewController.m */,
+				D0D4F3F015F4F7CA00EB7536 /* Supporting Files */,
+				D0D4F41415F502AC00EB7536 /* SPFPriceFetcher.h */,
+				D0D4F40715F4F81A00EB7536 /* SPFPriceFetcher.m */,
+			);
+			path = StockPriceFetcher;
+			sourceTree = "<group>";
+		};
+		D0D4F3F015F4F7CA00EB7536 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0D4F3F115F4F7CA00EB7536 /* StockPriceFetcher-Info.plist */,
+				D0D4F3F215F4F7CA00EB7536 /* InfoPlist.strings */,
+				D0D4F3F515F4F7CA00EB7536 /* main.m */,
+				D0D4F3F715F4F7CA00EB7536 /* StockPriceFetcher-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0D4F3E415F4F7CA00EB7536 /* StockPriceFetcher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0D4F40315F4F7CA00EB7536 /* Build configuration list for PBXNativeTarget "StockPriceFetcher" */;
+			buildPhases = (
+				D0D4F3E115F4F7CA00EB7536 /* Sources */,
+				D0D4F3E215F4F7CA00EB7536 /* Frameworks */,
+				D0D4F3E315F4F7CA00EB7536 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StockPriceFetcher;
+			productName = StockPriceFetcher;
+			productReference = D0D4F3E515F4F7CA00EB7536 /* StockPriceFetcher.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0D4F3DC15F4F7CA00EB7536 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SPF;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Justin Driscoll";
+			};
+			buildConfigurationList = D0D4F3DF15F4F7CA00EB7536 /* Build configuration list for PBXProject "StockPriceFetcher" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D0D4F3DA15F4F7CA00EB7536;
+			productRefGroup = D0D4F3E615F4F7CA00EB7536 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0D4F3E415F4F7CA00EB7536 /* StockPriceFetcher */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0D4F3E315F4F7CA00EB7536 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0D4F3F415F4F7CA00EB7536 /* InfoPlist.strings in Resources */,
+				D0D4F3FD15F4F7CA00EB7536 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0D4F3E115F4F7CA00EB7536 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0D4F3F615F4F7CA00EB7536 /* main.m in Sources */,
+				D0D4F3FA15F4F7CA00EB7536 /* SPFAppDelegate.m in Sources */,
+				D0D4F40015F4F7CA00EB7536 /* SPFViewController.m in Sources */,
+				D0D4F40815F4F81A00EB7536 /* SPFPriceFetcher.m in Sources */,
+				D0D4F40B15F4F8DE00EB7536 /* JCDHTTPConnection.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D0D4F3F215F4F7CA00EB7536 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0D4F3F315F4F7CA00EB7536 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D0D4F3FB15F4F7CA00EB7536 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0D4F3FC15F4F7CA00EB7536 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D0D4F40115F4F7CA00EB7536 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D0D4F40215F4F7CA00EB7536 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0D4F40415F4F7CA00EB7536 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StockPriceFetcher/StockPriceFetcher-Prefix.pch";
+				INFOPLIST_FILE = "StockPriceFetcher/StockPriceFetcher-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D0D4F40515F4F7CA00EB7536 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StockPriceFetcher/StockPriceFetcher-Prefix.pch";
+				INFOPLIST_FILE = "StockPriceFetcher/StockPriceFetcher-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0D4F3DF15F4F7CA00EB7536 /* Build configuration list for PBXProject "StockPriceFetcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0D4F40115F4F7CA00EB7536 /* Debug */,
+				D0D4F40215F4F7CA00EB7536 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0D4F40315F4F7CA00EB7536 /* Build configuration list for PBXNativeTarget "StockPriceFetcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0D4F40415F4F7CA00EB7536 /* Debug */,
+				D0D4F40515F4F7CA00EB7536 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0D4F3DC15F4F7CA00EB7536 /* Project object */;
+}

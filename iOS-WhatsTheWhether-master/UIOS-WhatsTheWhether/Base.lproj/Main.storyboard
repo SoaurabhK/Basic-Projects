@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="UIOS_WhatsTheWhether" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Whether" translatesAutoresizingMaskIntoConstraints="NO" id="Qjj-dK-UT8">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What's The Whether?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e2S-CS-rBs">
+                                <rect key="frame" x="199" y="34" width="203" height="24"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter a city..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Mx-UY-gop">
+                                <rect key="frame" x="251" y="101" width="99" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Eg. London, San Francisco" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="24l-Kp-mFS">
+                                <rect key="frame" x="204" y="142" width="193" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GJx-Ni-mFt">
+                                <rect key="frame" x="176" y="235" width="248" height="190"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="248" id="4iV-H0-Wz7"/>
+                                    <constraint firstAttribute="height" constant="190" id="sb2-OS-osJ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iG6-os-EJp">
+                                <rect key="frame" x="226" y="197" width="149" height="30"/>
+                                <state key="normal" title="What's The Whether?"/>
+                                <connections>
+                                    <action selector="findWhether:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JtR-JS-3Ow"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="24l-Kp-mFS" firstAttribute="top" secondItem="2Mx-UY-gop" secondAttribute="bottom" multiplier="1.1" constant="8" symbolic="YES" id="0Rh-90-MYy"/>
+                            <constraint firstItem="iG6-os-EJp" firstAttribute="centerX" secondItem="24l-Kp-mFS" secondAttribute="centerX" id="1SU-sN-TcG"/>
+                            <constraint firstItem="GJx-Ni-mFt" firstAttribute="top" secondItem="iG6-os-EJp" secondAttribute="bottom" constant="8" symbolic="YES" id="2ZJ-P7-zsC"/>
+                            <constraint firstItem="GJx-Ni-mFt" firstAttribute="centerX" secondItem="iG6-os-EJp" secondAttribute="centerX" id="4Fw-vh-0Dh"/>
+                            <constraint firstItem="e2S-CS-rBs" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="5au-oF-ASf"/>
+                            <constraint firstItem="2Mx-UY-gop" firstAttribute="centerX" secondItem="e2S-CS-rBs" secondAttribute="centerX" id="8ZX-4J-FRj"/>
+                            <constraint firstItem="Qjj-dK-UT8" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="9hv-Xy-vev"/>
+                            <constraint firstItem="e2S-CS-rBs" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" multiplier="1.3" constant="8" symbolic="YES" id="9uc-Le-T9z"/>
+                            <constraint firstItem="Qjj-dK-UT8" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="DBc-vw-oOE"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Qjj-dK-UT8" secondAttribute="trailing" constant="-20" id="DyZ-nt-cIk"/>
+                            <constraint firstItem="iG6-os-EJp" firstAttribute="top" secondItem="24l-Kp-mFS" secondAttribute="bottom" multiplier="1.1" constant="8" symbolic="YES" id="Hhg-Jg-mLC"/>
+                            <constraint firstItem="24l-Kp-mFS" firstAttribute="centerX" secondItem="2Mx-UY-gop" secondAttribute="centerX" id="lPS-LN-DC1"/>
+                            <constraint firstItem="2Mx-UY-gop" firstAttribute="top" secondItem="e2S-CS-rBs" secondAttribute="bottom" multiplier="1.6" constant="8" symbolic="YES" id="sXv-5w-E8A"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Qjj-dK-UT8" secondAttribute="bottom" id="uwV-gL-at2"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="cityTextField" destination="24l-Kp-mFS" id="jsv-WQ-JFP"/>
+                        <outlet property="resultLabel" destination="GJx-Ni-mFt" id="4Mg-CC-jJr"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="440" y="349"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Whether" width="1280" height="853"/>
+    </resources>
+</document>

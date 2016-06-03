@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B54300FF1D450962002B1420 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54300FC1D450962002B1420 /* AppDelegate.swift */; };
+		B54301001D450962002B1420 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B54300FD1D450962002B1420 /* Images.xcassets */; };
+		B54301011D450962002B1420 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54300FE1D450962002B1420 /* ViewController.swift */; };
+		B54301061D450975002B1420 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B54301021D450975002B1420 /* LaunchScreen.xib */; };
+		B54301071D450975002B1420 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B54301041D450975002B1420 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B0215AA31B89FA0B00C48483 /* USK-StoringImages.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "USK-StoringImages.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B54300FC1D450962002B1420 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "USK-StoringImages/AppDelegate.swift"; sourceTree = SOURCE_ROOT; };
+		B54300FD1D450962002B1420 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "USK-StoringImages/Images.xcassets"; sourceTree = SOURCE_ROOT; };
+		B54300FE1D450962002B1420 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = "USK-StoringImages/ViewController.swift"; sourceTree = SOURCE_ROOT; };
+		B54301031D450975002B1420 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = "USK-StoringImages/Base.lproj/LaunchScreen.xib"; sourceTree = SOURCE_ROOT; };
+		B54301051D450975002B1420 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "USK-StoringImages/Base.lproj/Main.storyboard"; sourceTree = SOURCE_ROOT; };
+		B54301081D45097D002B1420 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "USK-StoringImages/Info.plist"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B0215AA01B89FA0B00C48483 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B0215A9A1B89FA0B00C48483 = {
+			isa = PBXGroup;
+			children = (
+				B0215AA51B89FA0B00C48483 /* USK-StoringImages */,
+				B0215AA41B89FA0B00C48483 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B0215AA41B89FA0B00C48483 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0215AA31B89FA0B00C48483 /* USK-StoringImages.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B0215AA51B89FA0B00C48483 /* USK-StoringImages */ = {
+			isa = PBXGroup;
+			children = (
+				B54300FC1D450962002B1420 /* AppDelegate.swift */,
+				B54300FD1D450962002B1420 /* Images.xcassets */,
+				B54300FE1D450962002B1420 /* ViewController.swift */,
+				B54301021D450975002B1420 /* LaunchScreen.xib */,
+				B54301041D450975002B1420 /* Main.storyboard */,
+				B0215AA61B89FA0B00C48483 /* Supporting Files */,
+			);
+			name = "USK-StoringImages";
+			path = "Udemy-StoringImages";
+			sourceTree = "<group>";
+		};
+		B0215AA61B89FA0B00C48483 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B54301081D45097D002B1420 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B0215AA21B89FA0B00C48483 /* USK-StoringImages */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0215AC21B89FA0B00C48483 /* Build configuration list for PBXNativeTarget "USK-StoringImages" */;
+			buildPhases = (
+				B0215A9F1B89FA0B00C48483 /* Sources */,
+				B0215AA01B89FA0B00C48483 /* Frameworks */,
+				B0215AA11B89FA0B00C48483 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "USK-StoringImages";
+			productName = "Udemy-StoringImages";
+			productReference = B0215AA31B89FA0B00C48483 /* USK-StoringImages.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B0215A9B1B89FA0B00C48483 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0720;
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Soaurabh;
+				TargetAttributes = {
+					B0215AA21B89FA0B00C48483 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = B0215A9E1B89FA0B00C48483 /* Build configuration list for PBXProject "USK-StoringImages" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B0215A9A1B89FA0B00C48483;
+			productRefGroup = B0215AA41B89FA0B00C48483 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B0215AA21B89FA0B00C48483 /* USK-StoringImages */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B0215AA11B89FA0B00C48483 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B54301071D450975002B1420 /* Main.storyboard in Resources */,
+				B54301061D450975002B1420 /* LaunchScreen.xib in Resources */,
+				B54301001D450962002B1420 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B0215A9F1B89FA0B00C48483 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B54300FF1D450962002B1420 /* AppDelegate.swift in Sources */,
+				B54301011D450962002B1420 /* ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B54301021D450975002B1420 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B54301031D450975002B1420 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		B54301041D450975002B1420 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B54301051D450975002B1420 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B0215AC01B89FA0B00C48483 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B0215AC11B89FA0B00C48483 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B0215AC31B89FA0B00C48483 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "USK-StoringImages/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sk.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "USK-StoringImages";
+			};
+			name = Debug;
+		};
+		B0215AC41B89FA0B00C48483 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "USK-StoringImages/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sk.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "USK-StoringImages";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B0215A9E1B89FA0B00C48483 /* Build configuration list for PBXProject "USK-StoringImages" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0215AC01B89FA0B00C48483 /* Debug */,
+				B0215AC11B89FA0B00C48483 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0215AC21B89FA0B00C48483 /* Build configuration list for PBXNativeTarget "USK-StoringImages" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0215AC31B89FA0B00C48483 /* Debug */,
+				B0215AC41B89FA0B00C48483 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B0215A9B1B89FA0B00C48483 /* Project object */;
+}

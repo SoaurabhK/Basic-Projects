@@ -1,0 +1,1 @@
+This repository contains the basic iOS and OSX projects for a quick self reference.
